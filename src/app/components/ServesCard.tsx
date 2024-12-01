@@ -1,5 +1,6 @@
 
 
+import Image from 'next/image';
 import React from 'react';
 import { ImGoogle } from 'react-icons/im';
 
@@ -13,7 +14,7 @@ const ServesCard: React.FC<ServiceCardProps> = ({ title, description, img }) => 
   return (
     <div className="bg-slate-200 shadow-md rounded-lg p-6 text-center hover:shadow-lg transition-shadow duration-300">
       {img ? (
-        <img src={img} alt={title} className="w-16 h-16 mx-auto mb-4" />
+        <Image src={img} alt={title} className="w-16 h-16 mx-auto mb-4" />
       ) : (
         <ImGoogle className="w-16 h-16 mx-auto mb-4 text-blue-500" />
       )}

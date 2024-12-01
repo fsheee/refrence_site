@@ -1,6 +1,7 @@
 
 'use client';
 import React, { useState, useEffect } from 'react';
+import Image from 'next/image';
 
 // Define the interface for the image objects.
 interface RandomImageProps {
@@ -28,7 +29,10 @@ const ClientLogo = ({ images }: RandomImageProps) => {
       <div className="text-center">
         <p>No images available</p>
         {/* Render a default image when no images are passed */}
-        <img src="/default-image.jpg" alt="Default Image" className="w-32 h-32 mx-auto" />
+        <Image
+         src="/default-image.jpg" 
+         alt="Default Image" 
+         className="w-32 h-32 mx-auto" />
       </div>
     );
   }

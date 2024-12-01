@@ -73,6 +73,7 @@
 
 // export default WideVerity;
 
+import Image from "next/image";
 import React from "react";
 
 const WideVerity = () => {
@@ -117,7 +118,7 @@ const WideVerity = () => {
         <div className="flex flex-col mt -4 md:flex-row items-center gap-8">
           {/* Image */}
           <div className="md:w-1/2">
-            <img
+            <Image
               src="/laptop-image.jpg"
               alt="Laptop"
               className="rounded-lg shadow-lg w-full h-auto"
