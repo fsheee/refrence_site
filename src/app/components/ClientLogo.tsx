@@ -32,7 +32,10 @@ const ClientLogo = ({ images }: RandomImageProps) => {
         <Image
          src="/default-image.jpg" 
          alt="Default Image" 
+         width={128}
+         height={128}
          className="w-32 h-32 mx-auto" />
+         
       </div>
     );
   }
