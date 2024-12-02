@@ -39,7 +39,7 @@ const ClientLogo = ({ images }: RandomImageProps) => {
 
   return (
     <div className="flex justify-center items-center">
-      <img
+      <Image
         src={images[currentIndex].img}
         alt="Slider Image"
         className="w-32 h-32 mx-auto transition-all duration-1000 ease-in-out"

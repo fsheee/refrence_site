@@ -1,5 +1,4 @@
 import Card from "./components/Card";
-import ClientLogo from "./components/ClientLogo";
 import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import NavBar from "./components/NavBar";

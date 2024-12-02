@@ -6,6 +6,7 @@ import {
   HoverCardContent,
   HoverCardTrigger,
 } from "@/components/ui/hover-card";
+import Image from "next/image";
 
 const Card = () => {
   const cards = [
@@ -56,7 +57,7 @@ const Card = () => {
           </HoverCardTrigger>
           <HoverCardContent>
             <div className="max-w-sm rounded-lg overflow-hidden shadow-lg bg-white">
-              <img
+              <Image
                 className="object-cover"
                 src={card.imgSrc}
                 alt={card.altText}
