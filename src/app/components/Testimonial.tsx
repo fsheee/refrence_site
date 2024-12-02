@@ -29,19 +29,19 @@ const Testimonial: React.FC = () => {
       name: "Jane Doe",
       role: "Software Engineer",
       message: "This is the best service I have ever used. Highly recommend it!",
-      avatar: "/images/avatar1.jpg", // Replace with your image paths
+      img: "/p1.jfif", // Replace with your image paths
     },
     {
       name: "John Smith",
       role: "Product Manager",
       message: "Amazing experience! The team was very supportive and helpful.",
-      avatar: "/images/avatar2.jpg",
+      img: "/p1.jfif",
     },
     {
       name: "Alice Johnson",
       role: "UI/UX Designer",
       message: "The quality of work is outstanding. Will use this service again!",
-      avatar: "/images/avatar3.jpg",
+      img: "/p1.jfif",
     },
   ];
 
@@ -56,7 +56,7 @@ const Testimonial: React.FC = () => {
               name={testimonial.name}
               role={testimonial.role}
               message={testimonial.message}
-              avatar={testimonial.avatar}
+              avatar={testimonial.img}
             />
           ))}
         </div>
